@@ -1,0 +1,12 @@
+<!--pages/lover/lover.wxml-->
+<view class="container">
+  <view class='loverInfo'>
+    <block>
+      <image class="loverAvator" src='{{avatorUrl}}'></image>
+      <text class='loverName'>💨</text>
+    </block>
+  </view>
+  <view class='loverMotto'>
+    <text>{{loverMotto}}</text>
+  </view>
+</view>
